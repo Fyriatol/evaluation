@@ -22,7 +22,7 @@
   <textarea name="msg" id="msg"></textarea>
   </div>
   <div>
-<input type="submit" value="Send" id="submit" />
+<input type="submit" value="Envoyer" id="submit" />
   </div>
   </fieldset>
   <input type="hidden" name="frmContact" />

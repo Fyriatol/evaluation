@@ -32,21 +32,26 @@ if (isset($_POST['frmContact'])) {
     $sqlVerif = "SELECT COUNT(*) FROM contact
     WHERE mail='" . $mail ."'";
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
+
     if ($nbrOccurences > 0) {
       echo "Déjà dans la base";
     }
+
+    else {
+
     $sql = "INSERT INTO contact
-    (nom, prenom, mail, message)
-    VALUES ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $msg ."')";
+    (nom, prenom, mail, phone, message)
+    VALUES ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $phone ."', '" . $msg ."')";
     $query = $pdo->prepare($sql);
     $query->bindValue('nom', $nom, PDO::PARAM_STR);
     $query->bindValue('prenom', $prenom, PDO::PARAM_STR);
     $query->bindValue('mail', $mail, PDO::PARAM_STR);
-    $query->bindValue('phone', $phone, PDO::PARAM-STR);
+    $query->bindValue('phone', $phone, PDO::PARAM_STR);
     $query->bindValue('message', $msg, PDO::PARAM_STR);
     $query->execute();
     echo "Merci beaucoup, je vous recontacte au plus vite !";
-  }
+    }
+  } 
 }
 else {
   $nom = $prenom = $mail = $phone = $msg = "";
