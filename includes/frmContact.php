@@ -18,7 +18,7 @@
   <textarea name="msg" id="msg"></textarea>
   </div>
   <div>
-<input type="submit" value="Send" id="case5" />
+<input type="submit" value="Send" id="submit" />
   </div>
   </fieldset>
   <input type="hidden" name="frmContact" />
