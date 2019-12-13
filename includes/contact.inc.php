@@ -1,4 +1,4 @@
-<h1>CONTACTS</h1>
+<h1>CONTACT</h1>
 <?php
 if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);
@@ -51,7 +51,7 @@ if (isset($_POST['frmContact'])) {
     $query->execute();
     echo "Merci beaucoup, je vous recontacte au plus vite !";
     }
-  } 
+  }
 }
 else {
   $nom = $prenom = $mail = $phone = $msg = "";

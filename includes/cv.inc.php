@@ -1,4 +1,3 @@
-<body>
     <header id="header">
       <div id="wrap">
         <div id="titre">
@@ -60,11 +59,3 @@
             <h1>LOISIRS</h1><br />
               <p id="loisirs">Piano, Guitare, Dessin, Informatique, Écriture, Lecture, Cinéma, Musique.</p>
       </div>
-
-
-
-
-
-
-
-  </body>
