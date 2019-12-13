@@ -14,6 +14,10 @@
     <input type="mail" name="mail" id="mail" />
   </div>
   <div>
+    <label for="phone">Numéro de téléphone :</label>
+    <input type="text" name="phone" id="phone" />
+  </div>
+  <div>
     <label for="msg">Message : </label>
   <textarea name="msg" id="msg"></textarea>
   </div>

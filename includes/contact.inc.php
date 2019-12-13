@@ -4,6 +4,7 @@ if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);
   $prenom = checkInput($_POST['prenom']);
   $mail = checkInput($_POST['mail']);
+  $phone = checkInput($_POST['phone']);
   $msg = checkInput($_POST['msg']);
   $erreur = array();
   if ($nom === "")
@@ -12,6 +13,8 @@ if (isset($_POST['frmContact'])) {
     array_push($erreur, "Veuillez saisir un prénom");
   if ($mail === "")
     array_push($erreur, "Veuillez saisir une adresse mail");
+    if ($phone === "")
+      array_push($erreur, "Veuillez saisir un numéro");
   if ($msg === "")
     array_push($erreur, "Veuillez saisir un message");
   if (count($erreur) > 0) {
@@ -39,12 +42,13 @@ if (isset($_POST['frmContact'])) {
     $query->bindValue('nom', $nom, PDO::PARAM_STR);
     $query->bindValue('prenom', $prenom, PDO::PARAM_STR);
     $query->bindValue('mail', $mail, PDO::PARAM_STR);
+    $query->bindValue('phone', $phone, PDO::PARAM-STR);
     $query->bindValue('message', $msg, PDO::PARAM_STR);
     $query->execute();
-    echo "ENregistrement OK";
+    echo "Merci beaucoup, je vous recontacte au plus vite !";
   }
 }
 else {
-  $nom = $prenom = $mail = $msg = "";
+  $nom = $prenom = $mail = $phone = $msg = "";
   require 'frmContact.php';
 }
