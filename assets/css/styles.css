@@ -18,6 +18,31 @@ ul li#header {
   height:20px;
 }
 
+/* Style buttons */
+.btn {
+ background-color: DodgerBlue;
+ border: none;
+ color: white;
+ padding: 12px 30px;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+ background-color: lightblue;
+}
+
+p#formation {
+  padding-left: 150px;
+  padding-right:10px;
+}
+
+p#qui {
+  padding-left:350px;
+  padding-right:350px;
+}
+
 textarea{
   resize:none;
 }

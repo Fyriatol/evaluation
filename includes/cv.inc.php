@@ -1,4 +1,5 @@
-    <header id="header">
+<body>
+<header id="header">
       <div id="wrap">
         <div id="titre">
           <div id="left" class="header">
@@ -28,8 +29,8 @@
           <li><p id=etude>2015 - Baccalauréat Littéraire avec option Musique</li><br />
           <li>
             <p id="etudes">2008-2012 - Conservatoire de Musique</p> </li> <br />
-          <p id="formation">Apprentissage Solfège, Piano, Cor au Conservatoire de musique de Saint-Valéry en Caux. <br /><br />
-          <h2>PERMIS B</h2><br /><br /><br /><br />
+          <p id="formation">Apprentissage Solfège, Piano, Cor au Conservatoire de musique de Saint-Valéry en Caux. <br />
+          <h2>PERMIS B</h2><br />
 
         <h1>EXPÉRIENCE</h1><br />
           <ul>
@@ -59,3 +60,6 @@
             <h1>LOISIRS</h1><br />
               <p id="loisirs">Piano, Guitare, Dessin, Informatique, Écriture, Lecture, Cinéma, Musique.</p>
       </div>
+
+      <!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i><a href="includes\CV Arthur.pdf" download>DOWNLOAD CV</a></button>
