@@ -1,7 +1,9 @@
 @import url("reset.css");
 @import url("font.css");
 
-ul li#header a{
+/* HEADER MENU */
+
+ul li#headeur a{
   margin-top:1%;
   border:2px solid black;
   border-top-width: thin;
@@ -20,22 +22,26 @@ ul li#header a{
   border-bottom: 2px solid;
   border-right: 2px solid;
   margin-left:150px;
-  background-color:white;
+  background-color:#98FB98;
 }
 
+ul#headeur {
+  background-color:black;
+}
 nav#menu {
   background-color:white;
   color:white;
 }
 
-ul li#header:hover a{
-  background-color: lightblue;
+ul li#headeur:hover a{
+  background-color: #E6FE64;
   text-decoration:none;
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
 
+/* CSS POUR LE CV */
 
 p#formation {
   padding-left: 150px;
@@ -51,7 +57,7 @@ textarea{
   resize:none;
 }
 
-header h1 {
+h1#cv {
   display:flex;
 
 }
@@ -118,7 +124,7 @@ h2#qualite {
   justify-content:center;
 }
 
-#header h1 {
+h1#cv {
 margin-top:150px;
 background-color: #021f63;
 color: #fff;
@@ -206,9 +212,17 @@ h1#p {
   margin-left:60%;
 }
 
+/* CSS POUR L'ACCUEIL*/
+
 body {
-background-color:#98FB98;
+background-color:lightblue;
 }
+
+div#qui {
+  padding:
+}
+
+/* CSS POUR LE FORMULAIRE DE CONTACT*/
 
 form {
   padding: 20px;
@@ -222,24 +236,10 @@ legend {
   justify-content: center;
 }
 
-div#provenance {
-  text-align:center;
-}
-
 textarea#msg {
   resize:none;
   width:300px;
   height:150px;
-}
-
-textarea#psw {
-  resize:none;
-}
-
-h1 {
-text-align:center;
-background-color:#98FB98;
-margin-top:1%;
 }
 
 footer {
@@ -270,6 +270,13 @@ form fieldset {
   outline: 2px solid white;
 }
 
-div#qui {
-  padding:
+/* CSS UNIVERSEL */
+
+div#header {
+  text-align:center;
+  background-color:#E6FE64;
+  padding:25px 0 ;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom:100px;
 }
