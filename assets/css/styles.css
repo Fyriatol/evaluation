@@ -126,8 +126,8 @@ h2#qualite {
 
 h1#cv {
 margin-top:150px;
-background-color: #021f63;
-color: #fff;
+background-color: #E6FE64;
+color: black;
 font-size:1.8em;
 font-weight: bold;
 text-transform: uppercase;
@@ -218,8 +218,19 @@ body {
 background-color:lightblue;
 }
 
-div#qui {
-  padding:
+h2#prez {
+  text-align:center;
+  text-transform: uppercase;
+  font-size:2em;
+  background-color:#E6FE64;
+  padding:20px;
+  margin-left:550px;
+  margin-right:550px;
+}
+
+p#nfacto {
+  padding-left:350px;
+  padding-right:350px;
 }
 
 /* CSS POUR LE FORMULAIRE DE CONTACT*/
@@ -285,8 +296,17 @@ div#header {
   margin-bottom:100px;
 }
 
+h1#contact {
+  text-align:center;
+  background-color:#E6FE64;
+  padding:25px 0 ;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom:100px;
+}
+
 footer {
-  margin-top:700px;
+  padding-top:700px;
 }
 
 /* MENTIONS LÉGALES */

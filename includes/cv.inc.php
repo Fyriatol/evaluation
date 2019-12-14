@@ -1,4 +1,4 @@
-<br/><header id="header">
+<header id="header">
   <div id="wrap">
     <div id="titre">
       <div id="left" class="header">
