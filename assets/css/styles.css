@@ -4,15 +4,15 @@
 /* HEADER MENU */
 
 ul li#headeur a{
-  margin-top:1%;
+  float:left;
+  /*margin-top:1%;*/
   border:2px solid black;
   border-top-width: thin;
   border-bottom-width: thin;
   border-right-width:thin;
   border-left-width:thin;
   justify-content:space-between;
-  float:left;
-  width:20%;
+  width:13%;
   text-align: center;
   text-decoration: none;
   color:#000;
@@ -228,6 +228,10 @@ form {
   padding: 20px;
   display:flex;
   justify-content: center;
+  position: absolute;
+  justify-content:center;
+  margin-left:500px;
+  margin-top: 100px;
 }
 
 legend {
@@ -279,4 +283,42 @@ div#header {
   margin-left:150px;
   margin-right:150px;
   margin-bottom:100px;
+}
+
+footer {
+  margin-top:700px;
+}
+
+/* MENTIONS LÉGALES */
+
+h2#mentions {
+  text-align:center;
+  text-transform: uppercase;
+  font-size:2em;
+  background-color:#E6FE64;
+  padding:20px;
+  margin-left:550px;
+  margin-right:550px;
+}
+
+p#mention {
+  text-align:center;
+  margin-left:150px;
+  margin-right:150px;
+}
+
+address#mentions {
+  text-align:center;
+}
+
+abbr#mentions {
+  text-align:center;
+  justify-content:center;
+  display:flex;
+}
+
+a#mentions {
+  text-align:center;
+  justify-content:center;
+  display:flex;
 }

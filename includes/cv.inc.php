@@ -1,4 +1,4 @@
-<header id="header">
+<br/><header id="header">
   <div id="wrap">
     <div id="titre">
       <div id="left" class="header">
@@ -14,8 +14,8 @@
           76000 Rouen<br /></address>
             <abbr title="Numéro de téléphone">Tél.
             </abbr> : <a href="+33623988231">
-              06.23.98.82.31</a><br />
-            <abbr title="email">email: arthurclarke312@gmail.com</abbr>
+              06.23.98.82.31</a>
+            <abbr title="email"><a href="mailto:arthurclarke312@gmail.com">email: arthurclarke312@gmail.com</a></abbr>
     </div>
     </div>
     <div id="laft">
