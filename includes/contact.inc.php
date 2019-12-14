@@ -19,7 +19,7 @@ if (isset($_POST['frmContact'])) {
   if ($msg === "")
     array_push($erreur, "Veuillez saisir un message");
   if ($file ==="")
-    array_push($erreur, "Veuillez saisir un fichier");
+    array_push($erreur, "Veuillez insérer un fichier");
   if (count($erreur) > 0) {
     $message = '<ul>';
     for($i = 0 ; $i < count($erreur) ; $i++) {

@@ -1,4 +1,3 @@
-<body>
 <header id="header">
       <div id="wrap">
         <div id="titre">
