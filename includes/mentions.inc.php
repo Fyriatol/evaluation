@@ -1,5 +1,5 @@
-<div id="header">
-  <h1 id="accueil">MENTIONS LÉGALES</h1>
+<div id="firstone">
+  <h1 id="firstone">MENTIONS LÉGALES</h1>
 </div>
 <div id="pourquoi">
   <h2 id="mentions">Editeur du site</h2><br/>

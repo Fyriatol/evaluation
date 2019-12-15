@@ -1,7 +1,7 @@
 <div id="header">
-<h1>Arthur CLARKE | Référent Digital</h1>
+<h1 id="kijesui">Arthur CLARKE | Référent Digital</h1>
 </div>
-  <nav id="menu">
+  <navbar id="menu">
     <ul id="headeur">
       <li id="headeur"><a href="index.php?page=accueil" title="Retour à l'accueil">Accueil</a></li>
       <li id="headeur"><a href="index.php?page=contact" title="Me contacter">Contact</a></li>
