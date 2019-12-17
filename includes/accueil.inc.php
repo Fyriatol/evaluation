@@ -12,7 +12,7 @@
       <p id="nfactory">Cette formation a pour but de nous introduire à tout l'univers du Digital via divers enseignement tel que :
   <div class="band">
     <ul>
-      <div class="wrap">
+      <div class="teaching">
         <li>Code (HTML, CSS, PHP, ...)</li>
         <li>PAO (Photoshop, Illustrator,...)</li>
         <li>Webmarketing</li>

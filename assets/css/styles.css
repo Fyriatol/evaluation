@@ -3,10 +3,6 @@
 
 /* HEADER MENU */
 
-#navbar {
-  z-index:1;
-}
-
 ul li#headeur a{
   float:left;
   /*margin-top:1%;*/
@@ -69,15 +65,19 @@ p#nfactory {
   /*padding-right:350px;*/
 }
 
+div#teaching {
+  margin-left:30px;
+}
+
 /* CSS POUR LE FORMULAIRE DE CONTACT*/
 
 form {
   padding: 20px;
   display:flex;
   justify-content: center;
-  position: absolute;
+  /*position: absolute*/;
   justify-content:center;
-  margin-left:500px;
+  margin-left:15px;
   margin-top: 100px;
 }
 
@@ -189,8 +189,9 @@ a#mentions {
 footer {
   /*width: 100%;*/
   /*height : 60px;*/
-  background-color:grey;
+  /*background-color:grey;*/
   display: inline-block;
+  float:right;
 }
 
 
@@ -204,13 +205,36 @@ footer {
 
 /* CSS POUR LE CV */
 
+button#download {
+  text-decoration:none;
+  border:thin;
+  text-align:center;
+  font-size:16px;
+  background-color:#FE5353;
+  border:2px solid black;
+  border-top-width: thin;
+  border-bottom-width: thin;
+  border-right-width:thin;
+  border-left-width:thin;
+  background-color: #E6FE64;
+  text-decoration:none;
+}
+
+button#download:hover a{
+  text-decoration:none;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+}
+
 div#firstonecv {
   text-align:center;
   background-color:#E6FE64;
-  padding:25px 0 ;
+  padding:25px 0;
   margin-left:150px;
   margin-right:150px;
-  margin-bottom:5000px;
+  /*margin-bottom:5000px;*/
   /*margin-top:500px;*/
 }
 
@@ -244,15 +268,23 @@ h1#cv {
 }
 
 #left, #right {
-  width:40%;
- position:absolute;
+  width:50%;
+ /*position:absolute;*/
   top: 0;
+}
+
+#left {
+  float:left;
+}
+
+#right {
+  float:right;
 }
 
 #laft, #raght {
   width: 80%;
-  position:absolute;
-  top: 50%;
+  /*position:absolute;*/
+  /*top: 50%;*/
   z-index:1;
   margin-left:10%;
 }

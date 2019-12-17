@@ -1,5 +1,8 @@
 <div id="totale">
-  <!--<header id="header">
+  <div id="firstonecv">
+  <h1 id="firstonecv">PRÉSENTATION</h1>
+  </div>
+<!--  <header id="header">
     <div id="wrap">
       <div id="titre">
         <div id="left" class="header">
@@ -17,10 +20,7 @@
               </abbr> : <a href="+33623988231">
                 06.23.98.82.31</a>
               <abbr title="email"><a href="mailto:arthurclarke312@gmail.com">email: arthurclarke312@gmail.com</a></abbr>
-      </div>
-    </div>-->
-    <div id="firstonecv">
-    <h1 id="firstonecv">PRÉSENTATION</h1>
+      </div>-->
     </div>
       <p id="koikejesoi">Je m'appelle Arthur CLARKE, j'ai 22 ans. Je suis une personne dynamique, responsable et sérieuse. Ma grande capacité d'adaptation et mon sens de l'écoute font de moi une personne qui apprend vite et qui est toujours très motivée. Très ouvert d'esprit.</p>
       <div id="laft">
@@ -61,7 +61,7 @@
           <p id="loisirs">Piano, Guitare, Dessin, Informatique, Écriture, Lecture, Cinéma, Musique.</p>
       </div>
       <div id="download">
-        <button class="btn"><i class="fa fa-download"></i><a href="includes\CV Arthur.pdf" download>DOWNLOAD CV</a></button>
+        <button id="download" class="btn"><i class="fa fa-download"></i><a href="includes\CV Arthur.pdf" download>DOWNLOAD CV</a></button>
       </div>
       <a href="index.php?page=cvenglish" title="cv2">ENGLISH VERSION</a>
 </div>

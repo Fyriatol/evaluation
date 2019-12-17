@@ -22,10 +22,6 @@
   <textarea name="msg" id="msg"></textarea>
   </div>
   <div>
-    <label for="file">Pièce jointe :</label>
-  <input type="file" id="file"></input>
-  </div>
-  <div>
 <input type="submit" value="Envoyer" id="submit" />
   </div>
   </fieldset>
