@@ -1,3 +1,6 @@
+<div id="firstone">
+  <h1 id="accueil">CONTACT</h1>
+</div>
 <form action="index.php?page=contact" method="post">
   <fieldset>
     <legend id="legend">Me contacter</legend>

@@ -1,6 +1,3 @@
-<div id="firtone">
-  <h1 id="firstone">CONTACT</h1>
-</div>
 <?php
 if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);
@@ -36,7 +33,7 @@ if (isset($_POST['frmContact'])) {
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
 
     if ($nbrOccurences > 0) {
-      echo "Déjà dans la base";
+      echo '<p id="réponse" class="style_css">Désolé mais vos données sont déjà dans ma base.</p>';
     }
 
     else {
@@ -51,7 +48,7 @@ if (isset($_POST['frmContact'])) {
     $query->bindValue('phone', $phone, PDO::PARAM_STR);
     $query->bindValue('message', $msg, PDO::PARAM_STR);
     $query->execute();
-    echo "Merci beaucoup, je vous recontacte au plus vite !";
+    echo '<p id="réponse" class="style_css">Merci ! Je vous recontacte au plus vite.</p>';
     }
   }
 }

@@ -11,14 +11,15 @@
       <p id="nfactory">Je suis actuellement en formation de <a href="https://nfactory.school/formation-referent-digital/" target="_blank">référent digital</a> à la <a href="https://nfactory.school/" target="_blank">NFactory School</a></p>
       <p id="nfactory">Cette formation a pour but de nous introduire à tout l'univers du Digital via divers enseignement tel que :
   <div class="band">
-    <ul>
-      <div class="teaching">
-        <li>Code (HTML, CSS, PHP, ...)</li>
-        <li>PAO (Photoshop, Illustrator,...)</li>
-        <li>Webmarketing</li>
-        <li>etc... </li>
-        <li>En gros, tout ce qui sert à être présent sur les internets du web</li></p>
-      </div>
-    </ul>
+      <ul>
+        <div id="teaching" class="wrap">
+          <li>Code (HTML, CSS, PHP, ...)</li>
+          <li>PAO (Photoshop, Illustrator,...)</li>
+          <li>Webmarketing</li>
+          <li>etc... </li>
+          <li>En gros, tout ce qui sert à être présent sur les internets du web</li></p>
+        </div>
+      </ul>
+    <p id="redirection">Pour en savoir plus sur mon parcours, je vous laisse vous diriger vers <a href="index.php?page=cv">mon CV</a>.</p>
   </div>
 </div>
