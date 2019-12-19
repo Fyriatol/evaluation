@@ -12,7 +12,7 @@ if (isset($_POST['frmContact'])) {
     array_push($erreur, "Veuillez saisir un prénom");
   if ($mail === "")
     array_push($erreur, "Veuillez saisir une adresse mail");
-  if ($phone === "")
+  if ($phone === "")  
     array_push($erreur, "Veuillez saisir un numéro");
   if ($msg === "")
     array_push($erreur, "Veuillez saisir un message");

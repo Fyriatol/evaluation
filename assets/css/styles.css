@@ -5,7 +5,6 @@
 
 ul li#headeur a{
   float:left;
-  /*margin-top:1%;*/
   border:2px solid black;
   border-top-width: thin;
   border-bottom-width: thin;
@@ -29,7 +28,6 @@ ul li#headeur a{
 
 ul#headeur {
   background-color:black;
-  display:relative;
 }
 nav#menu {
   background-color:white;
@@ -64,7 +62,6 @@ h2#prez {
 p#nfactory {
   margin-top:20px;
   padding-left:350px;
-  /*padding-right:350px;*/
 }
 
 div#teaching {
@@ -89,7 +86,6 @@ form {
   padding: 20px;
   display:flex;
   justify-content: center;
-  /*position: absolute*/;
   justify-content:center;
   margin-left:15px;
   margin-top: 60px;
@@ -132,6 +128,8 @@ form fieldset {
 }
 
 /* CSS UNIVERSEL */
+
+
 
 div#firstone {
   text-align:center;
@@ -203,11 +201,10 @@ a#mentions {
 /* CSS POUR LE FOOTER */
 
 footer {
-  /*width: 100%;*/
-  /*height : 60px;*/
-  /*background-color:grey;*/
   display: inline-block;
   float:right;
+  margin-top:100px;
+  margin-right:10px;
 }
 
 
@@ -221,24 +218,65 @@ footer {
 
 /* CSS POUR LE CV */
 
-button#download {
+p#download a{
+    float:left;
+    border:2px solid black;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-right-width:thin;
+    border-left-width:thin;
+    text-align: center;
+    text-decoration: none;
+    color:#000;
+    padding: 15px 10px;
+    height: 20px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    margin-left:650px;
+    background-color:#E6FE64;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+p#download:hover a{
+  background-color: #F48E36;
   text-decoration:none;
-  border:thin;
-  text-align:center;
-  font-size:16px;
-  background-color:#FE5353;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+}
+
+p#changerlangue {
+  margin-top:100px;
+}
+
+p#changerlangue a {
+  float:left;
   border:2px solid black;
   border-top-width: thin;
   border-bottom-width: thin;
   border-right-width:thin;
   border-left-width:thin;
-  background-color: #E6FE64;
-  text-decoration:none;
+  text-align: center;
+  text-decoration: none;
+  color:#000;
+  padding: 15px 10px;
+  height: 20px;
+  border-left: 2px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  margin-left:640px;
+  background-color:#E6FE64;
+  margin-top:20px;
+  font-weight:bold;
 }
 
-button#download:hover a{
+p#changerlangue:hover a {
+  background-color: #F48E36;
   text-decoration:none;
-
   transition-property: background-color;
   transition-duration: 0.5s;
   transition-delay: 0.1s;
@@ -250,12 +288,6 @@ div#firstonecv {
   padding:25px 0;
   margin-left:150px;
   margin-right:150px;
-  /*margin-bottom:5000px;*/
-  /*margin-top:500px;*/
-}
-
-div#totale {
-  margin-top:500px;
 }
 
 p#formation {
@@ -285,7 +317,6 @@ h1#cv {
 
 #left, #right {
   width:50%;
- /*position:absolute;*/
   top: 0;
 }
 
@@ -299,10 +330,9 @@ h1#cv {
 
 #laft, #raght {
   width: 80%;
-  /*position:absolute;*/
-  /*top: 50%;*/
   z-index:1;
-  margin-left:10%;
+  margin-top:15px;
+  margin-left:500px;
 }
 
 h2#photo {
@@ -347,8 +377,13 @@ h2#qualite {
   justify-content:center;
 }
 
+p#koikejesoi {
+  justify-content: center;
+  margin-left: 250px;
+  margin-right:250px;
+}
+
 h1#cv {
-/*margin-top:150px;*/
 background-color: #E6FE64;
 color: black;
 font-size:1.8em;
@@ -373,16 +408,6 @@ display:flex;
   font-style: bold;
   justify-content:center;
 }
-
-/*#header img {
-  margin-left:34%;
-  max-height: 300px;
-  max-width: 300px;
-  width: 300px;
-  height: 300px;
-  align-items:justify;
-  justify-content:justify;
-}*/
 
 p#loisirs {
 color:black;
@@ -423,15 +448,7 @@ h1#p {
   font-style:italic;
 }
 
-#left {
-  margin-top:0%;
-  margin-left:15%;
-}
-
-#right {
-  margin-left:50%;
-}
-
 #laft {
-  margin-left:60%;
+  margin-top:30px;
+  margin-left:500px;
 }

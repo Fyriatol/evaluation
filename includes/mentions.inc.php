@@ -3,7 +3,7 @@
 </div>
 <div id="pourquoi">
   <h2 id="mentions">Editeur du site</h2><br/>
-    <address id="mentions">
+      <address id="mentions">
       M. CLARKE Arthur<br />
       74 Rue de la République<br />
       76000 Rouen<br /></address>

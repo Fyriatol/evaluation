@@ -1,5 +1,5 @@
 <div id="header">
-<h1 id="kijesui">Arthur CLARKE | Référent Digital</h1>
+  <h1 id="kijesui">Arthur CLARKE | Référent Digital</h1>
 </div>
   <navbar id="menu">
     <ul id="headeur">
