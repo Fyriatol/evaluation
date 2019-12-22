@@ -12,7 +12,7 @@ if (isset($_POST['frmContact'])) {
     array_push($erreur, "Veuillez saisir un prénom");
   if ($mail === "")
     array_push($erreur, "Veuillez saisir une adresse mail");
-  if ($phone === "")  
+  if ($phone === "")
     array_push($erreur, "Veuillez saisir un numéro");
   if ($msg === "")
     array_push($erreur, "Veuillez saisir un message");
@@ -33,7 +33,7 @@ if (isset($_POST['frmContact'])) {
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
 
     if ($nbrOccurences > 0) {
-      echo '<p id="réponse" class="style_css">Désolé mais vos données sont déjà dans ma base.</p>';
+      echo '<p id="reponse" class="style_css">Désolé mais vos données sont déjà dans ma base.</p>';
     }
 
     else {
@@ -48,7 +48,7 @@ if (isset($_POST['frmContact'])) {
     $query->bindValue('phone', $phone, PDO::PARAM_STR);
     $query->bindValue('message', $msg, PDO::PARAM_STR);
     $query->execute();
-    echo '<p id="réponse" class="style_css">Merci ! Je vous recontacte au plus vite.</p>';
+    echo '<p id="reponse" class="style_css">Merci ! Je vous recontacte au plus vite.</p>';
     }
   }
 }

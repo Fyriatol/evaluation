@@ -26,4 +26,4 @@
 </div>
 <div id="Mes passions">
   <h2 id="prez">Mes passions</h2>
-    <p id="nfactory">J'ai plusieurs passions tel que la <a href="https://fr.wikipedia.org/wiki/Musique" target="_blank">musique</a>, l'<a href ="https://fr.wikipedia.org/wiki/Informatique" target="_blank">informatique</a> ou bien le <a href="https://fr.wikipedia.org/wiki/Dessin" target="_blank">dessin </a>
+    <p id="nfactory">J'ai plusieurs passions tel que la <a href="https://fr.wikipedia.org/wiki/Musique" target="_blank">musique</a>, l'<a href ="https://fr.wikipedia.org/wiki/Informatique" target="_blank">informatique</a> ou bien le <a href="https://fr.wikipedia.org/wiki/Dessin" target="_blank">dessin </a>.

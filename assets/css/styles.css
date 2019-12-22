@@ -77,7 +77,7 @@ p#redirection {
 
 /* CSS POUR LE FORMULAIRE DE CONTACT*/
 
-p#réponse {
+p#reponse {
   margin-top:150px;
   text-align:center;
 }
@@ -129,7 +129,13 @@ form fieldset {
 
 /* CSS UNIVERSEL */
 
+p {
+  color:black;
+}
 
+li {
+  color:black;
+}
 
 div#firstone {
   text-align:center;

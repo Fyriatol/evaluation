@@ -1,3 +1,10 @@
+<div id="totale">
+  <div id="firstone">
+    <h1 id="firstone">INTRODUCE MYSELF</h1>
+  </div>
+</div>
+  <p id="koikejesoi">My name is Arthur CLARKE, I'm 22. I am a dynamic person, responsible and serious. I can adapt easily to any situation and I'm a good listener. I also am a fast-learer who is always very motivated.Je m'appelle Arthur CLARKE, j'ai 22 ans. Je suis une personne dynamique, responsable et sérieuse furthermore I'm completely open-minded.</p>
+
 <div id="laft">
   <h1 id="cv">EDUCATION</h1><br />
     <ul>
