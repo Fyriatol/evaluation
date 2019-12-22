@@ -15,7 +15,7 @@
     <h2>PERMIS B</h2><br />
   <h1 id="cv">EXPÉRIENCE</h1><br />
     <ul>
-      <li>2018 - Agent de Cinéma - Pathé Docks 76</li>
+      <li>2019 - Agent de Cinéma - Pathé Docks 76</li>
       <li>2017-2018 - Commis en Boulangerie - E.LECLERC </li>
       <li>2017 - Fruits et Légumes - E.LECLERC</li>
       <li>2017 - Hôte de Caisse et d'Accueil - Toys'R'Us</li>
