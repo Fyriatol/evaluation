@@ -32,7 +32,7 @@
         <li><p id="comp">Responsabilité</p></li><br />
         <li><p id="comp">Adaptation</p></li>
       </ul><br />
-    <h2>LANGUES</h2><br />
+    <h2 id="qualite">LANGUES</h2><br />
       <ul>
         <li>Anglais: <p id="langue">Courant</p></li>
         <li>Espagnol: <p id="langue">Intermédiaire</p></li>

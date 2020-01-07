@@ -14,7 +14,7 @@ ul li#headeur a{
   width:12.45%;
   text-align: center;
   text-decoration: none;
-  color:#000;
+  color:white;
   padding: 15px 0;
   height: 20px;
   border-left: 2px solid;
@@ -22,8 +22,9 @@ ul li#headeur a{
   border-bottom: 2px solid;
   border-right: 2px solid;
   margin-left:150px;
-  background-color:#98FB98;
+  /*background-color:#98FB98;*/
   margin-bottom:12px;
+  border-color:white;
 }
 
 ul#headeur {
@@ -45,7 +46,11 @@ ul li#headeur:hover a{
 /* CSS POUR L'ACCUEIL*/
 
 body {
-background-color:lightblue;
+background-image: url(oui.png);
+background-position: right;
+background-size:27%;
+background-repeat: no-repeat;
+background-color: #001B38;
 }
 
 h2#prez {
@@ -57,22 +62,26 @@ h2#prez {
   margin-left:550px;
   margin-right:550px;
   margin-top:50px;
+  /*color:white;*/
 }
 
 p#nfactory {
   margin-top:20px;
   padding-left:350px;
+  color:white;
 }
 
 div#teaching {
   margin-left:400px;
   margin-top:10px;
   font-style:italic;
+  color:white;
 }
 
 p#redirection {
   padding-left:350px;
   margin-top:10px;
+  color:white;
 }
 
 /* CSS POUR LE FORMULAIRE DE CONTACT*/
@@ -80,6 +89,7 @@ p#redirection {
 p#reponse {
   margin-top:150px;
   text-align:center;
+  color:white;
 }
 
 form {
@@ -89,12 +99,14 @@ form {
   justify-content:center;
   margin-left:15px;
   margin-top: 60px;
+  color:white;
 }
 
 legend {
   font-weight: bold;
   text-align: center;
   justify-content: center;
+  color:white;
 }
 
 textarea#msg {
@@ -130,11 +142,11 @@ form fieldset {
 /* CSS UNIVERSEL */
 
 p {
-  color:black;
+  color:white;
 }
 
 li {
-  color:black;
+  color:white;
 }
 
 div#firstone {
@@ -147,6 +159,7 @@ div#firstone {
   margin-right:350px;
   margin-bottom:12px;
   margin-top:50px;
+  /*color:white;*/
 }
 
 h1#kijesui {
@@ -373,6 +386,7 @@ p#etudes {
 
 h2#qualite {
   margin-left:0%;
+  color:white;
 }
 
 #left {
@@ -416,7 +430,7 @@ display:flex;
 }
 
 p#loisirs {
-color:black;
+color:white;
 margin-right:60%;
 text-align:inherit;
 }

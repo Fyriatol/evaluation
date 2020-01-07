@@ -34,7 +34,7 @@
         <li><p id="comp">Responsabilities</p></li><br />
         <li><p id="comp">Adaptation</p></li>
       </ul><br />
-    <h2>LANGUAGES</h2><br />
+    <h2 id="qualite">LANGUAGES</h2><br />
       <ul>
         <li>English: <p id="langue">Fluent</p></li>
         <li>Spanish: <p id="langue">Medium</p></li>
