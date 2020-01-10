@@ -141,6 +141,10 @@ form fieldset {
 
 /* CSS UNIVERSEL */
 
+a {
+  color:green;
+}
+
 p {
   color:white;
 }
@@ -203,12 +207,14 @@ p#mention {
 
 address#mentions {
   text-align:center;
+  color:white;
 }
 
 abbr#mentions {
   text-align:center;
   justify-content:center;
   display:flex;
+  color:white;
 }
 
 a#mentions {
