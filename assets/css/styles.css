@@ -46,6 +46,7 @@ ul li#headeur:hover a{
 /* CSS POUR L'ACCUEIL*/
 
 body {
+min-width: 320px;
 background-image: url(oui.png);
 background-position: right;
 background-size:27%;
