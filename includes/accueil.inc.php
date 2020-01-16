@@ -2,7 +2,8 @@
   <h1 id="accueil">ACCUEIL</h1>
 </div>
 <div id="qui">
-    <h2 id="prez">QUI SUIS-JE ?</h2><br/>
+    <h2 id="jquery">QUI SUIS-JE ?</h2><br/>
+    <button>JE M'EN FICHE</button>
       <p id="qui">Je me présente: Arthur CLARKE.</p><br/>
       <p id="qui">Comme le dirais si bien un de mes camarades, je m'appelle 22 ans. Suite à une fac d'Anglais assez catastrophique, je me suis tourné vers la formation de <a href="https://nfactory.school/formation-referent-digital/" target="_blank">Référent Digital</a>, car je suis un passionné de l'univers du numérique et du digital. J'aime également les <a href="https://fr.wikipedia.org/wiki/P%C3%A2tes_alimentaires" target ="_blank">pâtes</a>, mais je ne pense pas que cela ai un quelconque rapport. Et puis il y a <a href="http://randomcolour.com/" target="_blank">ce site</a> qui est marrant car il donne des couleurs au pif.</p><br/>
 </div>
